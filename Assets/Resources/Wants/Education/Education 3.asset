@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874e5126ea0112442ac9a3e2ad573747, type: 3}
+  m_Name: Education 3
+  m_EditorClassIdentifier: 
+  want: "Upgrade me with learning! What\u2019s today\u2019s lesson?"
+  choice:
+  - How does AI bias happen?
+  - What makes an artwork valuable?
+  - How do voting systems differ worldwide?
+  - "What\u2019s the impact of deforestation?"
+  - How do vaccines work?
+  - What is hyperinflation?
+  choiceTypes: 000000000100000002000000030000000400000005000000
+  hunger: 0
+  fun: 0
+  social: 0
+  education: 1
