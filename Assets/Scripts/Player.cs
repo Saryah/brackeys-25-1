@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public static Player instance;
+    public Sprite playerSprite, playerSprite2, playerSpriteIdle;
+    public string highestAnswer;
+    void Awake()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if(instance != null)
+            Destroy(instance);
+        instance = this;
+        DontDestroyOnLoad(this);
     }
 }
